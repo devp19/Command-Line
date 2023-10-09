@@ -1,10 +1,10 @@
 # Wordle Project
 
-### 10000 Words.txt
+### 10000_words.txt
 
 This file contains a list of 10,000 words, each on a separate line. These words are used as the potential answers for the Wordle game.
 
-### wordle5NEW.txt
+### 5_letter_words.txt
 
 This file contains a list of five-letter words, filtered through the 10000 words text file. Each on a separate line. These words are used as the potential answers for the Wordle game.
 
