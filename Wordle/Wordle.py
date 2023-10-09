@@ -4,7 +4,7 @@ import random
 # File Importing for First Time Word Bank
 #-----------------------------------------
 
-with open('/Users/devpatel/Desktop/Personal Codes/Wordle Project/10000 Words.txt', 'r') as file:
+with open('/Users/devpatel/Desktop/Personal Codes/Wordle Project/10000_words.txt', 'r') as file:
     lines = file.readlines()
     
 word_list = [line.strip() for line in lines]
@@ -23,7 +23,7 @@ wordleAnswer = random.choice(wordle5)
 
 #-----------------------------------------
     
-with open('wordle5NEW.txt', 'w') as output_file:
+with open('five_letter_words.txt', 'w') as output_file:
     for word in wordle5:
         output_file.write(word + '\n')
 
