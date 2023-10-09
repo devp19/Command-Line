@@ -1,5 +1,4 @@
-# Command-Line
-Repository containing command-line games such as Wordle! 
+# Wordle Project
 
 ### 10000 Words.txt
 
